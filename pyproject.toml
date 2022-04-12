@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bocs"
+version = "0.1.0"
+description = "Control Library for the Microfluidics"
+authors = ["Your Name <you@example.com>"]
+license = "BSD-3 Clause"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+parchmint = "^0.2.11"
+networkx = "^2.8"
+pymint = "^0.2.16"
+numpy = "^1.22.3"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
